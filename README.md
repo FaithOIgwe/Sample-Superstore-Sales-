@@ -1,5 +1,7 @@
 # Sample-Superstore-Sales-Data
-I carried out Exploratory Analysis of a Sample Superstore Sales Data
+I carried out an Exploratoation of a Sample Superstore Sales Data using Microsoft SQL Server
+
+
 --inspecting data 
 select *
 from sales_data_sample
