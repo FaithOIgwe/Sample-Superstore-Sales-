@@ -38,6 +38,7 @@ ORDER BY Revenue DESC
 SELECT distinct MONTH_ID
 FROM sales_data_sample
 WHERE YEAR_ID = 2005
+
 ![2005 sales month](https://user-images.githubusercontent.com/108904370/191131603-d5c9b487-842b-4613-a969-1c9e635bdccf.PNG)
 
 
@@ -45,21 +46,24 @@ WHERE YEAR_ID = 2005
 SELECT distinct MONTH_ID
 FROM sales_data_sample
 WHERE YEAR_ID = 2004
+
 ![2004 sales months](https://user-images.githubusercontent.com/108904370/191131628-d19f6a05-b763-4787-8040-a23e4e5a5563.PNG)
 
  
  SELECT MONTH_ID, sum(sales), count(ORDERNUMBER) Frequency
 FROM sales_data_sample
 WHERE YEAR_ID = 2003
+Group by MONTH_ID
 ![2005 sales month](https://user-images.githubusercontent.com/108904370/191131657-a4728f7b-9ea4-4f2c-9db4-4e03e274a52c.PNG)
 
-Group by MONTH_ID
+
 
 --Analyzing Dealsize Revenue
 SELECT DEALSIZE, sum(sales) AS Revenue
 FROM sales_data_sample
 GROUP BY DEALSIZE
 ORDER BY Revenue
+
 ![dealsize revenue](https://user-images.githubusercontent.com/108904370/191131782-815a2fe0-caab-48de-acb2-2ba4b08e7793.PNG)
 
 
@@ -69,8 +73,8 @@ FROM sales_data_sample
 WHERE YEAR_ID = 2003 
 GROUP BY MONTH_ID
 ORDER BY Revenue desc
-![2003 best sales month](https://user-images.githubusercontent.com/108904370/191132132-9eef9cf8-8a27-4e0a-baf0-9b95d2e3be25.PNG)
 
+![2003 best sales month](https://user-images.githubusercontent.com/108904370/191132132-9eef9cf8-8a27-4e0a-baf0-9b95d2e3be25.PNG)
 
 
 SELECT MONTH_ID, sum(sales) AS Revenue, COUNT(ORDERNUMBER) Frequency
@@ -78,6 +82,7 @@ FROM sales_data_sample
 WHERE YEAR_ID = 2004
 GROUP BY MONTH_ID
 ORDER BY Revenue desc
+
 ![2004  best sales month](https://user-images.githubusercontent.com/108904370/191132157-b5d60e7f-48d0-4305-b9dd-64b55b4317e0.PNG)
 
 
@@ -86,6 +91,7 @@ FROM sales_data_sample
 WHERE YEAR_ID = 2005 AND MONTH_ID = 5
 GROUP BY MONTH_ID, PRODUCTLINE
 ORDER BY Revenue desc
+
 ![2005 best sales month](https://user-images.githubusercontent.com/108904370/191132202-9bf13f33-ddad-430d-afc1-8fef0b85ca39.PNG)
 
 
@@ -141,6 +147,8 @@ select CUSTOMERNAME , rfm_recency, rfm_frequency, rfm_monetary,
 	end rfm_segment
 
 from #rfm
+
+
 ![sales items together](https://user-images.githubusercontent.com/108904370/191132345-a2a210d3-a345-4e3e-8252-7b9f4c26a3b6.PNG)
 
 
@@ -178,6 +186,8 @@ from sales_data_sample
 where country = 'UK'
 group by city
 order by 2 desc
+
+
 ![sold together](https://user-images.githubusercontent.com/108904370/191132451-38ee5fcc-ab89-423f-9411-c5b732eb535b.PNG)
 
 
@@ -188,6 +198,7 @@ from sales_data_sample
 where country = 'USA'
 group by  country, YEAR_ID, PRODUCTLINE
 order by 4 desc
+
 
 ![countries](https://user-images.githubusercontent.com/108904370/191132527-34883ee2-8298-4f4a-8417-3d27bcfcc465.PNG)
 
