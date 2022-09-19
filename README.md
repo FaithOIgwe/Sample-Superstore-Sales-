@@ -43,6 +43,7 @@ WHERE YEAR_ID = 2005
 
 
 --why was there more sales in 2004 and 2003?
+
 SELECT distinct MONTH_ID
 FROM sales_data_sample
 WHERE YEAR_ID = 2004
@@ -68,6 +69,8 @@ ORDER BY Revenue
 
 
 --Best Month for sales in a specific year?
+
+
 SELECT MONTH_ID, sum(sales) AS Revenue, COUNT(ORDERNUMBER) Frequency
 FROM sales_data_sample
 WHERE YEAR_ID = 2003 
@@ -97,6 +100,8 @@ ORDER BY Revenue desc
 
 -- The best months fro sales seems to be November, December and October
 --Lets Find out what sells more
+
+
 SELECT MONTH_ID, PRODUCTLINE, sum(sales) as Revenue, Count(ORDERNUMBER) Frequency
 FROM sales_data_sample
 WHERE YEAR_ID = 2004 AND MONTH_ID = 11
@@ -193,6 +198,8 @@ order by 2 desc
 
 
 ---What is the best product in United States?
+
+
 select country, YEAR_ID, PRODUCTLINE, sum(sales) Revenue
 from sales_data_sample
 where country = 'USA'
