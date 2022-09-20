@@ -1,4 +1,4 @@
-# Sample-Superstore-Sales-Data
+# Sample-Superstore-Sales-Data -- Data Exploration in SQL
 I carried out an Exploratoation of a Sample Superstore Sales Data using Microsoft SQL Server
 
 
