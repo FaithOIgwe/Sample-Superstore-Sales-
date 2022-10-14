@@ -1,5 +1,28 @@
 # Sample-Superstore-Sales-Data -- Data Exploration in SQL
-I carried out an Exploratoation of a Sample Superstore Sales Data using Microsoft SQL Server
+
+In this project I carried out an **Exploratory data analysis on the sample superstore** to draw insights on the state of the business between 2013-2015, 
+to see how well or poorly the business has performed and to see where improvements can be made and improved to increase revenue and reach of the business.
+
+
+Problem statement 
+
+This project takes real world data from the internet from top companies and ansers the following questions:
+
+What was the best month for sales? How much was earned that month?
+What city sold the most product?
+What time should we display advertisemens to maximize the likelihood of customer’s buying product?
+What products are most often sold together?
+What product sold the most? Why do you think it sold the most?
+
+**Insights and Recommendations**
+Sample superstore performed business for 36 months in the 3 years of data collected. I 2014, they were in operation for only 6 months and in that 6 months revenue
+generated was low as compared to other years. From the data collected, there is usully a boom in salse sfrom July down to Novemeber being the month with the highest sales yearly.
+
+In Novemeber 2003 classic cars had the most sales of 114, in 2004 Classic cars had the most sales of 104 and in 2005 thouh they operated for 5 Months only, they sold over 41 classic cars
+Sample Superstore should ensure that eneough staff are employed between October, November and December to ensure that enough hands are available to handle the bulk of sales.
+
+
+
 
 
 --inspecting data 
