@@ -4,7 +4,7 @@ In this project I carried out an **Exploratory data analysis on the sample super
 to see how well or poorly the business has performed and to see where improvements can be made and improved to increase revenue and reach of the business.
 
 
-Problem statement 
+**Problem  statement **
 
 This project takes real world data from the internet from top companies and ansers the following questions:
 
@@ -15,6 +15,7 @@ What products are most often sold together?
 What product sold the most? Why do you think it sold the most?
 
 **Insights and Recommendations**
+
 Sample superstore performed business for 36 months in the 3 years of data collected. I 2014, they were in operation for only 6 months and in that 6 months revenue
 generated was low as compared to other years. From the data collected, there is usully a boom in salse sfrom July down to Novemeber being the month with the highest sales yearly.
 
