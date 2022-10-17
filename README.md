@@ -1,6 +1,6 @@
 # Sample-Superstore-Sales-Data -- Data Exploration in SQL
 
-In this project I carried out an **Exploratory data analysis on the sample superstore** to draw insights on the state of the business between 2013-2015, 
+In this project I carried out an **Exploratory data analysis on the sample superstore** to draw insights on the state of the business between 2003-2005, 
 to see how well or poorly the business has performed and to see where improvements can be made and improved to increase revenue and reach of the business.
 
 
